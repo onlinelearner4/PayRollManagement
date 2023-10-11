@@ -8,9 +8,11 @@ namespace PayrollManagementDL
 {
     public class EmployeeRepository
     {
+        AppDdbContext dbContext = new AppDdbContext();
         public int Add(Employee employee)
         {
-            return 0;
+            dbContext.Employees.Add(employee);
+           return  dbContext.SaveChanges();
 
         }
         public int Update(Employee employee)

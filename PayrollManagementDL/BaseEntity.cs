@@ -5,6 +5,12 @@ namespace PayrollManagementDL
 {
     public class BaseEntity
     {
+        public BaseEntity()
+        {
+            CreatedOn = DateTime.Now;
+            UpdatedOn = DateTime.Now;
+            IsActive = true;
+        }
         [Key]
         public int Id { get; set; }
         public DateTime CreatedOn { get; set; }

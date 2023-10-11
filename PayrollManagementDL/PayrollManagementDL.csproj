@@ -56,6 +56,10 @@
     <Compile Include="Migrations\202310110257503_key update.designer.cs">
       <DependentUpon>202310110257503_key update.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202310110322521_employee model fixup.cs" />
+    <Compile Include="Migrations\202310110322521_employee model fixup.designer.cs">
+      <DependentUpon>202310110322521_employee model fixup.cs</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
@@ -73,6 +77,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202310110257503_key update.resx">
       <DependentUpon>202310110257503_key update.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202310110322521_employee model fixup.resx">
+      <DependentUpon>202310110322521_employee model fixup.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
