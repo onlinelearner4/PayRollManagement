@@ -31,5 +31,9 @@ namespace PayrollManagementBL
                 };
             }
         }
+        public List<Employee> GetEmployees()
+        {
+            return repo.GetEmployees();
+        }
     }
 }

@@ -18,6 +18,15 @@ namespace PayRollManagement
         public frmEmployee()
         {
             InitializeComponent();
+            LoadEmployee();
+        }
+
+        private void LoadEmployee()
+        {
+            List<Employee> employees = service.GetEmployees();
+            dataGridView1.AutoGenerateColumns = false;
+            dataGridView1.DataSource = employees;
+            dataGridView1.Refresh();
         }
 
         private void btnSave_Click(object sender, EventArgs e)

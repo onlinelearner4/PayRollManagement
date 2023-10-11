@@ -15,6 +15,10 @@ namespace PayrollManagementDL
            return  dbContext.SaveChanges();
 
         }
+        public List<Employee> GetEmployees()
+        {
+            return dbContext.Employees.Where(a=>a.IsActive==true).ToList();
+        }
         public int Update(Employee employee)
         {
             return 0;
