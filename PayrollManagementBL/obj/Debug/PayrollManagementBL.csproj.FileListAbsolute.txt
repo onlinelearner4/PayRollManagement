@@ -1,0 +1,12 @@
+E:\PayRollManagement\PayrollManagementBL\obj\Debug\PayrollManagementBL.csproj.AssemblyReference.cache
+E:\PayRollManagement\PayrollManagementBL\obj\Debug\PayrollManagementBL.csproj.CoreCompileInputs.cache
+E:\PayRollManagement\PayrollManagementBL\bin\Debug\PayrollManagementBL.dll
+E:\PayRollManagement\PayrollManagementBL\bin\Debug\PayrollManagementBL.pdb
+E:\PayRollManagement\PayrollManagementBL\bin\Debug\PayrollManagementDL.dll
+E:\PayRollManagement\PayrollManagementBL\bin\Debug\PayrollManagementDL.pdb
+E:\PayRollManagement\PayrollManagementBL\bin\Debug\PayrollManagementDL.dll.config
+E:\PayRollManagement\PayrollManagementBL\obj\Debug\PayrollManagementBL.csproj.CopyComplete
+E:\PayRollManagement\PayrollManagementBL\obj\Debug\PayrollManagementBL.dll
+E:\PayRollManagement\PayrollManagementBL\obj\Debug\PayrollManagementBL.pdb
+E:\PayRollManagement\PayrollManagementBL\bin\Debug\EntityFramework.dll
+E:\PayRollManagement\PayrollManagementBL\bin\Debug\EntityFramework.xml
